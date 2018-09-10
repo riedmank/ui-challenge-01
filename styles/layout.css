@@ -1,4 +1,6 @@
 header {
+  text-align: center;
+  line-height: 75px;
   width: 480px;
   height: 75px;
   background-color: coral;
@@ -6,6 +8,8 @@ header {
 }
 
 aside {
+  text-align: center;
+  line-height: 150px;
   width: 480px;
   height: 150px;
   background-color: slategray;
@@ -17,6 +21,8 @@ aside {
 }
 
 .cAndD div {
+  text-align: center;
+  line-height: 125px;
   width: 480px;
   height: 125px;
   outline: 2px solid black; 
@@ -37,6 +43,8 @@ aside {
 }
 
 .eThroughH div {
+  text-align: center;
+  line-height: 250px;
   width: 240px;
   height: 250px;
   outline: 2px solid black;
@@ -59,6 +67,8 @@ aside {
 }
 
 footer {
+  text-align: center;
+  line-height: 80px;
   width: 480px;
   height: 80px;
   background-color: lime;
@@ -67,6 +77,8 @@ footer {
 
 @media (min-width: 768px) {
   header {
+    text-align: center;
+      line-height: 100px;
     width: 960px;
     height: 100px;
     background-color: darkgoldenrod;
@@ -74,6 +86,8 @@ footer {
   }
 
   aside {
+    text-align: center;
+      line-height: 600px;
     width: 200px;
     height: 600px;
     background-color: palevioletred;
@@ -87,6 +101,8 @@ footer {
   }
 
   .cAndD div {
+    text-align: center;
+      line-height: 200px;
     width: 380px;
     height: 200px;
     outline: 2px solid black; 
@@ -107,6 +123,8 @@ footer {
   }
 
   .eThroughH div {
+    text-align: center;
+      line-height: 250px;
     width: 190px;
     height: 250px;
     outline: 2px solid black;
@@ -129,6 +147,8 @@ footer {
   }
 
   footer {
+    text-align: center;
+      line-height: 150px;
     width: 760px;
     height: 150px;
     background-color: darkred;

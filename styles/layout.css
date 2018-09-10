@@ -1,0 +1,158 @@
+header {
+  text-align: center;
+  line-height: 75px;
+  width: 480px;
+  height: 75px;
+  background-color: coral;
+  outline: 2px solid black;
+}
+
+aside {
+  text-align: center;
+  line-height: 150px;
+  width: 480px;
+  height: 150px;
+  background-color: slategray;
+  outline: 2px solid black;
+}
+
+.cAndD {
+  min-width: 500px;
+}
+
+.cAndD div {
+  text-align: center;
+  line-height: 125px;
+  width: 480px;
+  height: 125px;
+  outline: 2px solid black; 
+}
+
+.cAndD div:first-child {
+  background-color: red;
+}
+
+.cAndD div:nth-child(2) {
+  background-color: darkblue;
+}
+
+.eThroughH {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 495px;
+}
+
+.eThroughH div {
+  text-align: center;
+  line-height: 250px;
+  width: 240px;
+  height: 250px;
+  outline: 2px solid black;
+}
+
+.eThroughH div:first-child {
+  background-color: darkgreen;
+}
+
+.eThroughH div:nth-child(2) {
+  background-color: crimson;
+}
+
+.eThroughH div:nth-child(3) {
+  background-color: darkorange;
+}
+
+.eThroughH div:last-child {
+  background-color: olive;
+}
+
+footer {
+  text-align: center;
+  line-height: 80px;
+  width: 480px;
+  height: 80px;
+  background-color: lime;
+  outline: 2px solid black;
+}
+
+@media (min-width: 768px) {
+  header {
+    text-align: center;
+      line-height: 100px;
+    width: 960px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    outline: 2px solid black;
+  }
+
+  aside {
+    text-align: center;
+      line-height: 600px;
+    width: 200px;
+    height: 600px;
+    background-color: palevioletred;
+    outline: 2px solid black;
+    float: left;
+  }
+
+  .cAndD {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cAndD div {
+    text-align: center;
+      line-height: 200px;
+    width: 380px;
+    height: 200px;
+    outline: 2px solid black; 
+  }
+
+  .cAndD div:first-child {
+    background-color: darkolivegreen;
+  }
+  
+  .cAndD div:nth-child(2) {
+    background-color: mediumaquamarine;
+  }
+
+  .eThroughH {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+  }
+
+  .eThroughH div {
+    text-align: center;
+      line-height: 250px;
+    width: 190px;
+    height: 250px;
+    outline: 2px solid black;
+  }
+
+  .eThroughH div:first-child {
+    background-color: darkcyan;
+  }
+  
+  .eThroughH div:nth-child(2) {
+    background-color: chartreuse;
+  }
+  
+  .eThroughH div:nth-child(3) {
+    background-color: blueviolet;
+  }
+  
+  .eThroughH div:last-child {
+    background-color: lightgreen;
+  }
+
+  footer {
+    text-align: center;
+      line-height: 150px;
+    width: 760px;
+    height: 150px;
+    background-color: darkred;
+    outline: 2px solid black;
+    float: left;
+  }
+}

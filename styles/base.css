@@ -1,13 +1,13 @@
 body {
   background-color: ivory;
-  min-width: 500px;
-  margin: 0 auto;
+  width: 500px;
+  margin: 0px auto;
 }
 
 @media (min-width: 768px) {
   body {
     background-color: ivory;
-    min-width: 990px;
-    margin: 0 auto;
+    width: 990px;
+    margin: 0px auto;
   }
 }
